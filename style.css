@@ -1,0 +1,204 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	position: relative;
+}
+
+.container{
+	margin: 10px auto;
+	width: 60em;
+}
+
+header{
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;		
+	margin: auto;	
+}
+
+ul#options li {
+	display: inline-block;
+	position: relative;
+	border: 1px solid #ccc;
+	margin: 5px 5px;
+	height: 40px;
+}
+
+ul#options li:hover{
+	background-color: #cceef2;
+}
+
+ul#options li a{
+	top: 10px;
+	padding: 0px 100px;
+	color: #000;
+	font-weight: bold;	 
+}
+
+#addformemail, #addformaddress, #addformsms, #actionsaddress, #actionssms, #actionsemail{
+	display: none;
+}
+
+ul#email li, ul#sms li{
+	display: inline;
+	margin-right: 200px;			
+}
+
+ul#email, ul#sms{	
+	margin: 10px 0;
+}
+
+ul#email input[type='text'], ul#sms input[type='text'], ul#address input[type='text'], select{
+	min-width: 100px;
+	max-width: 100px;
+}
+
+select{
+      min-width: 105px;
+      max-width: 105px;
+}
+
+ul#address input[type='text'], select{
+    margin-left: 20px;
+}
+
+#verificalastname{
+    margin-right: -2px;
+}
+
+#verificaaddresspri{
+    margin-right: -8px;
+}
+
+#verificaaddresssec{
+    margin-right: -8px;
+}
+
+#verificacity{
+    margin-right: -45px;
+}
+
+#verificastate{
+    margin-right: -39px;
+}
+
+#verificazipcode{
+    margin-right: -12px;
+}
+
+#verificacountry{
+    margin-right: -17px;
+}
+
+#verificaphone{
+    margin-left: -20px;
+}
+
+ul#email label{
+	margin-right: 150px;
+}
+
+ul#sms label{
+	margin-right: 150px;
+}
+input[type='submit']{
+    margin: 20px 0 0 53px;
+    padding: 2px 5px;
+}
+
+#middlesms{
+    width: 539px;
+}
+
+#middleaddress{
+    width: 518px;
+}
+
+#middleemail{
+    width: 453px;
+}
+
+ul#actionsemail, ul#actionssms, ul#actionsaddress{
+    margin: 20px 0;
+}
+
+ul#actionsemail{
+    width: 380px;
+    margin-left: 205px;
+}
+
+ul#actionsemail label{
+    float: left;
+}
+
+ul#actionssms{
+    width: 465px;
+    margin-left: 180px;
+}
+
+ul#actionssms label{
+    float: left;
+}
+
+ul#actionsaddress{
+    width: 445px;
+    margin-left: 200px;
+}
+
+ul#actionsaddress label{
+    float: left;
+}
+
+ul#address li{
+    display: block;
+    margin-left: 200px;
+    width: 450px;
+}
+
+ul#address li ul li{
+	margin: 10px 0;
+}
+
+ul#address label{
+	margin-right: 10px;
+    float: left;
+}
+
+.mensaje{
+    color: red;
+    font-weight: bold;
+}
+
+p.mensaje{
+    position: absolute;
+    margin: 30% 50%;
+    width: 200px;
+}
+
+h3{
+	padding: 10px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
